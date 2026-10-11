@@ -1,0 +1,226 @@
+{
+ "schema": 1,
+ "id": "20261011T204642Z-seo-basis-pharma-dateien-1",
+ "title": "SEO-Basis pharma Dateien 1",
+ "created": "2026-10-11T20:46:42+00:00",
+ "not_before": null,
+ "ops": [
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "favicon.svg",
+   "sha256": "38918ee60fb9f78a79408156a8680db91f8606617a2a48e4212831c8a840f15c",
+   "size": 245,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "favicon.ico",
+   "sha256": "f71b35b8209919cda3cb8d55fc2bd01aebc82dcf63a46fcfdd95fb8d81d8da50",
+   "size": 2953,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "apple-touch-icon.png",
+   "sha256": "d0002e549be4e9363e3133baf37ee3e3f0594e71df1b991ee974cfee60b429bc",
+   "size": 1870,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "sitemap.xml",
+   "sha256": "f598238ef87d7acaf36b3cf4fc2e428f8abe15cff238b99f778a525000b3eaa0",
+   "size": 2818,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "robots.txt",
+   "sha256": "8d410c991dfcc7008f2b555c624eedbae5f2b412f37cf7f541e3c3fffc3911f0",
+   "size": 78,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "feed.xml",
+   "sha256": "d93dae4c8f7ea92570d20ac5901cfb41059dcb89a267a512fd09c282a6e9d0ed",
+   "size": 5868,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "llms.txt",
+   "sha256": "1449e5444e07908cc0726a293b48dbda6c72eb1b92d505daea8a98a71bc0f473",
+   "size": 5553,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "og/analyse-abbott-abt.png",
+   "sha256": "f14b8e3ee404e4e87eab69b80fa7e984675df0701e4b14b4bc9b7a9bfbd98620",
+   "size": 42358,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "og/analyse-immatics-imtx.png",
+   "sha256": "87fb163d7e743cfd5a49493f73ce7df00b425622289a43a790e173c547c120a0",
+   "size": 37099,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "og/analyse-immunitybio-ibrx.png",
+   "sha256": "26963a85b954b002eebc1a848c2b090c4ff0099b3354a7e170c74530fc2e6e4f",
+   "size": 37671,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "og/analyse-isrg-intuitive-surgical.png",
+   "sha256": "0fd85a024a3dfd4af65ddd37043fe9c1795bd975b4bd23547aa9dbfffd11b5b0",
+   "size": 50632,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "og/analyse-medline-mdln.png",
+   "sha256": "e343352bca9297e94c9e0d0f4a3c07684a7997b6d8e2248501a85628beaffaca",
+   "size": 35748,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "og/analyse-medtronic-mdt.png",
+   "sha256": "d9842526d2ff15d8321e92b3d2ddf310cc08b1fd2f688d3915ad94d7b5d9501b",
+   "size": 37466,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "og/analyse-nurexone-nrx.png",
+   "sha256": "1b2f762602517998f993dd30b42e913214229fb20ee8cef468f5c41c8f020e4e",
+   "size": 41799,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "og/analyse-sensorion-alsen.png",
+   "sha256": "dffb50c73e2712ac4c902563a6080b1bba9adbe970dd5c51314069e54fafcd84",
+   "size": 49000,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "og/analyse-shenzhen-edge-medical.png",
+   "sha256": "079993b8fcbc2b43cec226e3daa50b8bd31e6d3f63be0f4fe251bd0f42983889",
+   "size": 47749,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "og/analyse-ss-innovations.png",
+   "sha256": "8a527241530a06eb326ddef772b27e283c79c8c8a5f867198c06dfe4687685fb",
+   "size": 45215,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "og/analyse-veeva-veev.png",
+   "sha256": "cf0ed367cfdf09addfbb0412da84c7c731478386e2a95e42e78902f1a2e131fe",
+   "size": 38964,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "og/analyse-viking-vktx.png",
+   "sha256": "72f1e1146a5182db3ad0b6b5a27b969be1eda4c33c9f85890e842aec30d6828d",
+   "size": 46587,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "og/analyse.png",
+   "sha256": "9c20d38324debb794e84b58acc45ad5bf6c603f8a1ceed5c9bd6fc9407705b88",
+   "size": 24722,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "og/default.png",
+   "sha256": "3157c8f6ba2907cc82d8804f1fa2592cc936f529c077c0505bc92e864227f362",
+   "size": 49134,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "og/essays-roboterchirurgie-2026.png",
+   "sha256": "1c58eb60d3eed62dd3fced571cfc2d8a82ae12204fa48a578c0707906244652c",
+   "size": 49427,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "og/essays.png",
+   "sha256": "077e5b25558894dc11ccc027e23b5dc2277d26b863115e8c11cb324aea0e2bb0",
+   "size": 33182,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "og/methodik.png",
+   "sha256": "3d51ad2d3e111e88998c6147fdb8eb98691ef410bfeb3a9987221e8890afa49e",
+   "size": 45084,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "og/news.png",
+   "sha256": "f6a33f9f73da63f4b9e6d4fb975f833a85f6987ed8179d872ac3e737b923b3d9",
+   "size": 45381,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "og/start.png",
+   "sha256": "def70d6f74245ddc46e984e7df300f7650cb2ca64ca4bec5f7d8cd252fd2f613",
+   "size": 35946,
+   "overwrite": true
+  }
+ ],
+ "verify": [
+  {
+   "site": "pharma",
+   "url": "/sitemap.xml",
+   "contains": [
+    "<urlset"
+   ]
+  }
+ ]
+}
