@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "id": "20261011T204946Z-indexnow",
+ "title": "IndexNow Schluessel",
+ "created": "2026-10-11T20:49:46+00:00",
+ "not_before": null,
+ "ops": [
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "6730207fc23264dc5ca4c297754da7b9.txt",
+   "sha256": "cffa45c5c2e6267c1e5216e0aa09445383e3bc5ebbed0d30fae237e2e4b4c278",
+   "size": 32,
+   "overwrite": false
+  },
+  {
+   "op": "put",
+   "site": "rohstoff",
+   "path": "6730207fc23264dc5ca4c297754da7b9.txt",
+   "sha256": "cffa45c5c2e6267c1e5216e0aa09445383e3bc5ebbed0d30fae237e2e4b4c278",
+   "size": 32,
+   "overwrite": false
+  }
+ ],
+ "verify": []
+}
