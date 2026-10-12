@@ -1,0 +1,31 @@
+{
+ "schema": 1,
+ "id": "20261012T091951Z-pharma-robo-yahoo-link",
+ "title": "Pharma Roboterchirurgie: defekten Yahoo-History-Link ersetzt",
+ "created": "2026-10-12T09:19:51+00:00",
+ "not_before": null,
+ "ops": [
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "essays/roboterchirurgie-2026/index.html",
+   "optional": true,
+   "edits": [
+    {
+     "find": "<a href=\"https://finance.yahoo.com/quote/SSII/history/\" rel=\"noopener\" target=\"_blank\">Yahoo Finance: SSII Kurshistorie (Schlusskurs 17.07.2026)</a>",
+     "replace": "<a href=\"https://finance.yahoo.com/quote/SSII/\" rel=\"noopener\" target=\"_blank\">Yahoo Finance: SSII Kursseite (Schlusskurs 17.07.2026 laut Datenabruf des Autors)</a>",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "verify": [
+  {
+   "site": "pharma",
+   "url": "/essays/roboterchirurgie-2026/",
+   "contains": [
+    "finance.yahoo.com/quote/SSII/"
+   ]
+  }
+ ]
+}
