@@ -1,0 +1,35 @@
+{
+ "schema": 1,
+ "id": "20261012T084305Z-pharma-robo-cmr-quellen",
+ "title": "Pharma Roboterchirurgie: tote CMR-Quellenlinks entfernt",
+ "created": "2026-10-12T08:43:05+00:00",
+ "not_before": null,
+ "ops": [
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "essays/roboterchirurgie-2026/index.html",
+   "edits": [
+    {
+     "find": "<li id=\"q78\"><a href=\"https://us.cmrsurgical.com/news/cmr-surgical-secures-200m-usd-in-funding\" rel=\"noopener\" target=\"_blank\">CMR Surgical: Finanzierung über 200 Mio. USD, 04.04.2025</a></li><li id=\"q79\"><a href=\"https://us.cmrsurgical.com/news/cmr-receives-fda-marketing-authorization-for-versius\" rel=\"noopener\" target=\"_blank\">CMR Surgical: FDA-Marktzulassung (De Novo), 14.10.2024</a></li>",
+     "replace": "",
+     "count": 1
+    },
+    {
+     "find": "Versius gilt laut Unternehmen als zweithäufigst genutzter Weichteilroboter (unabhängig nicht bestätigt), mit FDA-De-Novo-Zulassung und über 200 Mio. USD frischem Kapital.<span class=\"rb-k rb-kA\" title=\"A: verifiziert mit Quelle und Datum\">A</span><sup class=\"rb-s\"><a href=\"#q78\" aria-label=\"Quelle 78\">78</a>,<a href=\"#q79\" aria-label=\"Quelle 79\">79</a></sup> ",
+     "replace": "Versius ist ein Weichteil-Chirurgiesystem; Angaben zur Marktstellung und zu Zulassungen oder Finanzierungen wurden für diesen Beitrag nicht verifiziert.<span class=\"rb-k rb-kD\" title=\"D: unbekannt oder nicht verifizierbar\">D</span> ",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "verify": [
+  {
+   "site": "pharma",
+   "url": "/essays/roboterchirurgie-2026/",
+   "contains": [
+    "Roboterchirurgie"
+   ]
+  }
+ ]
+}

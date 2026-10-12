@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "id": "20261011T205059Z-seo-basis-pharma-dateien-1",
+ "id": "20261012T084311Z-seo-basis-pharma-dateien-2",
  "title": "SEO-Basis pharma Dateien 1",
- "created": "2026-10-11T20:50:59+00:00",
+ "created": "2026-10-12T08:43:11+00:00",
  "not_before": null,
  "ops": [
   {
@@ -33,8 +33,8 @@
    "op": "put",
    "site": "pharma",
    "path": "sitemap.xml",
-   "sha256": "f598238ef87d7acaf36b3cf4fc2e428f8abe15cff238b99f778a525000b3eaa0",
-   "size": 2818,
+   "sha256": "934047a821bd04026ef3329bfb0043af7adc78e6ebd861c9662ff52e2df90100",
+   "size": 2357,
    "overwrite": true
   },
   {
@@ -57,8 +57,8 @@
    "op": "put",
    "site": "pharma",
    "path": "llms.txt",
-   "sha256": "1449e5444e07908cc0726a293b48dbda6c72eb1b92d505daea8a98a71bc0f473",
-   "size": 5553,
+   "sha256": "d6c20e5def8faa88a29453f4f082362eb4be30c2f02bf29b22a46d64bde09371",
+   "size": 4409,
    "overwrite": true
   },
   {

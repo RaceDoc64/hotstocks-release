@@ -1,0 +1,392 @@
+{
+ "schema": 1,
+ "id": "20261012T084304Z-pharma-menue-bereinigt",
+ "title": "Pharma: Menue und Verzeichnisse bereinigt (News, Archiv, FAQ, Community, Portfolio entfernt)",
+ "created": "2026-10-12T08:43:04+00:00",
+ "not_before": null,
+ "ops": [
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "index.html",
+   "optional": true,
+   "edits": [
+    {
+     "find": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain active\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/news/\">News</a><a class=\"plain\" href=\"/methodik/\">Methodik</a><a class=\"plain\" href=\"/portfolio/\">Portfolio</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n<a href=\"/archiv/\">Archiv</a>\n<a href=\"/community/\">Community</a>\n<a href=\"/faq/\">FAQ</a>\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "replace": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain active\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/methodik/\">Methodik</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n\n\n\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "count": 1
+    },
+    {
+     "find": "<a href=\"/news/\">Biotech<span>Studien &amp; Zulassungen</span></a>",
+     "replace": "<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie<span>Neuer Essay</span></a>",
+     "count": 1
+    },
+    {
+     "find": "<article class=\"ph-story\"><div class=\"ph-number\">02 · Branchenarchiv</div><h3>Studien brauchen Kontext</h3><p>Forschungsmeldungen und regulatorische Ereignisse im vorhandenen Newsarchiv. Entscheidend ist das Datum des jeweiligen Beitrags.</p><a href=\"/news/\">Zum Newsarchiv →</a></article>",
+     "replace": "<article class=\"ph-story\"><div class=\"ph-number\">02 · Neuer Essay</div><h3>Die Hand am Joystick, das Können im Kopf</h3><p>Roboterchirurgie 2026: Verbreitung, Ausbildung und fünf Aktien im Drei-Ebenen-Check (ISRG, SSII, MDT, SYK, Edge Medical) – faktengeprüft, mit Quellen und Offenlegung des Autors.</p><a href=\"/essays/roboterchirurgie-2026/\">Essay lesen →</a></article>",
+     "count": 1
+    },
+    {
+     "find": "<div class=\"ph-section-head\"><h2>Aus dem Researcharchiv</h2><a href=\"/archiv/\">Zum Archiv →</a></div>\n<section aria-label=\"Vorhandene Beiträge mit historischen Datenständen\" class=\"ph-archive\"><article><div class=\"ph-eyebrow\">Analysen · März 2026</div><h3>Die ersten Analyseausgaben</h3><p>Die bestehenden März-Analysen bleiben historische Veröffentlichungen. Frühere Kaufkandidaten und Scores werden durch die Layoutpflege nicht erneut bestätigt.</p><a href=\"/analyse/\">Bestandsanalysen ansehen →</a></article><article><div class=\"ph-eyebrow\">Forschung · April 2026</div><h3>mRNA und die Krebsforschung</h3><p>Der vorhandene Beitrag vom 19. April 2026 zum Pankreaskrebs steht im Newsarchiv. Diese Neugestaltung ergänzt keine neue klinische Evidenz.</p><a href=\"/news/\">Forschungsarchiv öffnen →</a></article><article><div class=\"ph-eyebrow\">Biotech · April 2026</div><h3>CRISPR im Bestandsresearch</h3><p>Pipeline, Unternehmensentwicklung und Katalysatoren: die vorhandene Einordnung zu CRISPR Therapeutics mit Originaldatum lesen.</p><a href=\"/news/\">Zum bestehenden Beitrag →</a></article><article><div class=\"ph-eyebrow\">Branchenbriefing · Juni 2026</div><h3>Zulassungen, Deals und Pipeline</h3><p>Das jüngste auf der Newsübersicht gefundene Briefing trägt den 14. Juni 2026. Es wird hier nicht als aktuelle Tagesmeldung präsentiert.</p><a href=\"/news/\">Branchenarchiv lesen →</a></article></section>\n",
+     "replace": "",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "analyse/index.html",
+   "optional": true,
+   "edits": [
+    {
+     "find": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link active open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/news/\">News</a><a class=\"plain\" href=\"/methodik/\">Methodik</a><a class=\"plain\" href=\"/portfolio/\">Portfolio</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n<a href=\"/archiv/\">Archiv</a>\n<a href=\"/community/\">Community</a>\n<a href=\"/faq/\">FAQ</a>\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "replace": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link active open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/methodik/\">Methodik</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n\n\n\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "analyse/abbott-abt/index.html",
+   "optional": true,
+   "edits": [
+    {
+     "find": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain active\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/news/\">News</a><a class=\"plain\" href=\"/methodik/\">Methodik</a><a class=\"plain\" href=\"/portfolio/\">Portfolio</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n<a href=\"/archiv/\">Archiv</a>\n<a href=\"/community/\">Community</a>\n<a href=\"/faq/\">FAQ</a>\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "replace": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain active\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/methodik/\">Methodik</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n\n\n\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "analyse/immatics-imtx/index.html",
+   "optional": true,
+   "edits": [
+    {
+     "find": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain active\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/news/\">News</a><a class=\"plain\" href=\"/methodik/\">Methodik</a><a class=\"plain\" href=\"/portfolio/\">Portfolio</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n<a href=\"/archiv/\">Archiv</a>\n<a href=\"/community/\">Community</a>\n<a href=\"/faq/\">FAQ</a>\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "replace": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain active\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/methodik/\">Methodik</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n\n\n\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "analyse/immunitybio-ibrx/index.html",
+   "optional": true,
+   "edits": [
+    {
+     "find": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain active\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/news/\">News</a><a class=\"plain\" href=\"/methodik/\">Methodik</a><a class=\"plain\" href=\"/portfolio/\">Portfolio</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n<a href=\"/archiv/\">Archiv</a>\n<a href=\"/community/\">Community</a>\n<a href=\"/faq/\">FAQ</a>\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "replace": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain active\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/methodik/\">Methodik</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n\n\n\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "analyse/isrg-intuitive-surgical/index.html",
+   "optional": true,
+   "edits": [
+    {
+     "find": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link active open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/news/\">News</a><a class=\"plain\" href=\"/methodik/\">Methodik</a><a class=\"plain\" href=\"/portfolio/\">Portfolio</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n<a href=\"/archiv/\">Archiv</a>\n<a href=\"/community/\">Community</a>\n<a href=\"/faq/\">FAQ</a>\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "replace": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link active open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/methodik/\">Methodik</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n\n\n\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "analyse/medline-mdln/index.html",
+   "optional": true,
+   "edits": [
+    {
+     "find": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain active\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/news/\">News</a><a class=\"plain\" href=\"/methodik/\">Methodik</a><a class=\"plain\" href=\"/portfolio/\">Portfolio</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n<a href=\"/archiv/\">Archiv</a>\n<a href=\"/community/\">Community</a>\n<a href=\"/faq/\">FAQ</a>\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "replace": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain active\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/methodik/\">Methodik</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n\n\n\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "analyse/medtronic-mdt/index.html",
+   "optional": true,
+   "edits": [
+    {
+     "find": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain active\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/news/\">News</a><a class=\"plain\" href=\"/methodik/\">Methodik</a><a class=\"plain\" href=\"/portfolio/\">Portfolio</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n<a href=\"/archiv/\">Archiv</a>\n<a href=\"/community/\">Community</a>\n<a href=\"/faq/\">FAQ</a>\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "replace": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain active\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/methodik/\">Methodik</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n\n\n\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "analyse/nurexone-nrx/index.html",
+   "optional": true,
+   "edits": [
+    {
+     "find": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain active\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/news/\">News</a><a class=\"plain\" href=\"/methodik/\">Methodik</a><a class=\"plain\" href=\"/portfolio/\">Portfolio</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n<a href=\"/archiv/\">Archiv</a>\n<a href=\"/community/\">Community</a>\n<a href=\"/faq/\">FAQ</a>\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "replace": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain active\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/methodik/\">Methodik</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n\n\n\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "analyse/sensorion-alsen/index.html",
+   "optional": true,
+   "edits": [
+    {
+     "find": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain active\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/news/\">News</a><a class=\"plain\" href=\"/methodik/\">Methodik</a><a class=\"plain\" href=\"/portfolio/\">Portfolio</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n<a href=\"/archiv/\">Archiv</a>\n<a href=\"/community/\">Community</a>\n<a href=\"/faq/\">FAQ</a>\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "replace": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain active\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/methodik/\">Methodik</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n\n\n\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "analyse/shenzhen-edge-medical/index.html",
+   "optional": true,
+   "edits": [
+    {
+     "find": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain active\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/news/\">News</a><a class=\"plain\" href=\"/methodik/\">Methodik</a><a class=\"plain\" href=\"/portfolio/\">Portfolio</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n<a href=\"/archiv/\">Archiv</a>\n<a href=\"/community/\">Community</a>\n<a href=\"/faq/\">FAQ</a>\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "replace": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain active\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/methodik/\">Methodik</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n\n\n\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "analyse/ss-innovations/index.html",
+   "optional": true,
+   "edits": [
+    {
+     "find": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link active open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/news/\">News</a><a class=\"plain\" href=\"/methodik/\">Methodik</a><a class=\"plain\" href=\"/portfolio/\">Portfolio</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n<a href=\"/archiv/\">Archiv</a>\n<a href=\"/community/\">Community</a>\n<a href=\"/faq/\">FAQ</a>\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "replace": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link active open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/methodik/\">Methodik</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n\n\n\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "analyse/veeva-veev/index.html",
+   "optional": true,
+   "edits": [
+    {
+     "find": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain active\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/news/\">News</a><a class=\"plain\" href=\"/methodik/\">Methodik</a><a class=\"plain\" href=\"/portfolio/\">Portfolio</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n<a href=\"/archiv/\">Archiv</a>\n<a href=\"/community/\">Community</a>\n<a href=\"/faq/\">FAQ</a>\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "replace": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain active\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/methodik/\">Methodik</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n\n\n\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "analyse/viking-vktx/index.html",
+   "optional": true,
+   "edits": [
+    {
+     "find": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain active\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/news/\">News</a><a class=\"plain\" href=\"/methodik/\">Methodik</a><a class=\"plain\" href=\"/portfolio/\">Portfolio</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n<a href=\"/archiv/\">Archiv</a>\n<a href=\"/community/\">Community</a>\n<a href=\"/faq/\">FAQ</a>\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "replace": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain active\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/methodik/\">Methodik</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n\n\n\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "archiv/index.html",
+   "optional": true,
+   "edits": [
+    {
+     "find": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/news/\">News</a><a class=\"plain\" href=\"/methodik/\">Methodik</a><a class=\"plain\" href=\"/portfolio/\">Portfolio</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link active open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n<a href=\"/archiv/\">Archiv</a>\n<a href=\"/community/\">Community</a>\n<a href=\"/faq/\">FAQ</a>\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "replace": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/methodik/\">Methodik</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link active open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n\n\n\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "community/index.html",
+   "optional": true,
+   "edits": [
+    {
+     "find": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/news/\">News</a><a class=\"plain\" href=\"/methodik/\">Methodik</a><a class=\"plain\" href=\"/portfolio/\">Portfolio</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link active open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n<a href=\"/archiv/\">Archiv</a>\n<a href=\"/community/\">Community</a>\n<a href=\"/faq/\">FAQ</a>\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "replace": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/methodik/\">Methodik</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link active open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n\n\n\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "datenschutz/index.html",
+   "optional": true,
+   "edits": [
+    {
+     "find": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain active\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/news/\">News</a><a class=\"plain\" href=\"/methodik/\">Methodik</a><a class=\"plain\" href=\"/portfolio/\">Portfolio</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n<a href=\"/archiv/\">Archiv</a>\n<a href=\"/community/\">Community</a>\n<a href=\"/faq/\">FAQ</a>\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "replace": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain active\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/methodik/\">Methodik</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n\n\n\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "essays/index.html",
+   "optional": true,
+   "edits": [
+    {
+     "find": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link active open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/news/\">News</a><a class=\"plain\" href=\"/methodik/\">Methodik</a><a class=\"plain\" href=\"/portfolio/\">Portfolio</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n<a href=\"/archiv/\">Archiv</a>\n<a href=\"/community/\">Community</a>\n<a href=\"/faq/\">FAQ</a>\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "replace": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link active open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/methodik/\">Methodik</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n\n\n\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "essays/roboterchirurgie-2026/index.html",
+   "optional": true,
+   "edits": [
+    {
+     "find": "<nav aria-label=\"Hauptnavigation\" class=\"nav\">\n<div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div>\n<div class=\"links\"><a class=\"plain\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link active open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/news/\">News</a><a class=\"plain\" href=\"/methodik/\">Methodik</a><a class=\"plain\" href=\"/portfolio/\">Portfolio</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n<a href=\"/archiv/\">Archiv</a>\n<a href=\"/community/\">Community</a>\n<a href=\"/faq/\">FAQ</a>\n<a href=\"/kontakt/\">Kontakt</a></div></div></div>\n</nav>",
+     "replace": "<nav aria-label=\"Hauptnavigation\" class=\"nav\">\n<div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div>\n<div class=\"links\"><a class=\"plain\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link active open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/methodik/\">Methodik</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n\n\n\n<a href=\"/kontakt/\">Kontakt</a></div></div></div>\n</nav>",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "faq/index.html",
+   "optional": true,
+   "edits": [
+    {
+     "find": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/news/\">News</a><a class=\"plain\" href=\"/methodik/\">Methodik</a><a class=\"plain\" href=\"/portfolio/\">Portfolio</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link active open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n<a href=\"/archiv/\">Archiv</a>\n<a href=\"/community/\">Community</a>\n<a href=\"/faq/\">FAQ</a>\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "replace": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/methodik/\">Methodik</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link active open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n\n\n\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "favoriten/index.html",
+   "optional": true,
+   "edits": [
+    {
+     "find": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain active\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/news/\">News</a><a class=\"plain\" href=\"/methodik/\">Methodik</a><a class=\"plain\" href=\"/portfolio/\">Portfolio</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n<a href=\"/archiv/\">Archiv</a>\n<a href=\"/community/\">Community</a>\n<a href=\"/faq/\">FAQ</a>\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "replace": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain active\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/methodik/\">Methodik</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n\n\n\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "impressum/index.html",
+   "optional": true,
+   "edits": [
+    {
+     "find": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain active\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/news/\">News</a><a class=\"plain\" href=\"/methodik/\">Methodik</a><a class=\"plain\" href=\"/portfolio/\">Portfolio</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n<a href=\"/archiv/\">Archiv</a>\n<a href=\"/community/\">Community</a>\n<a href=\"/faq/\">FAQ</a>\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "replace": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain active\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/methodik/\">Methodik</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n\n\n\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "kontakt/index.html",
+   "optional": true,
+   "edits": [
+    {
+     "find": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/news/\">News</a><a class=\"plain\" href=\"/methodik/\">Methodik</a><a class=\"plain\" href=\"/portfolio/\">Portfolio</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link active open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n<a href=\"/archiv/\">Archiv</a>\n<a href=\"/community/\">Community</a>\n<a href=\"/faq/\">FAQ</a>\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "replace": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/methodik/\">Methodik</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link active open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n\n\n\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "methodik/index.html",
+   "optional": true,
+   "edits": [
+    {
+     "find": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a><a href=\"/essays/\">Essays &amp; Deep Dives</a><a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/news/\">News</a><a class=\"plain active\" href=\"/methodik/\">Methodik</a><a class=\"plain\" href=\"/portfolio/\">Portfolio</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a><a href=\"/archiv/\">Archiv</a><a href=\"/community/\">Community</a><a href=\"/faq/\">FAQ</a><a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "replace": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a><a href=\"/essays/\">Essays &amp; Deep Dives</a><a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain active\" href=\"/methodik/\">Methodik</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a><a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "news/index.html",
+   "optional": true,
+   "edits": [
+    {
+     "find": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain active\" href=\"/news/\">News</a><a class=\"plain\" href=\"/methodik/\">Methodik</a><a class=\"plain\" href=\"/portfolio/\">Portfolio</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n<a href=\"/archiv/\">Archiv</a>\n<a href=\"/community/\">Community</a>\n<a href=\"/faq/\">FAQ</a>\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "replace": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/methodik/\">Methodik</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n\n\n\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "portfolio/index.html",
+   "optional": true,
+   "edits": [
+    {
+     "find": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/news/\">News</a><a class=\"plain\" href=\"/methodik/\">Methodik</a><a class=\"plain active\" href=\"/portfolio/\">Portfolio</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n<a href=\"/archiv/\">Archiv</a>\n<a href=\"/community/\">Community</a>\n<a href=\"/faq/\">FAQ</a>\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "replace": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/methodik/\">Methodik</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n\n\n\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "ueber/index.html",
+   "optional": true,
+   "edits": [
+    {
+     "find": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/news/\">News</a><a class=\"plain\" href=\"/methodik/\">Methodik</a><a class=\"plain\" href=\"/portfolio/\">Portfolio</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link active open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n<a href=\"/archiv/\">Archiv</a>\n<a href=\"/community/\">Community</a>\n<a href=\"/faq/\">FAQ</a>\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "replace": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/methodik/\">Methodik</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link active open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n\n\n\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "verify": [
+  {
+   "site": "pharma",
+   "url": "/",
+   "contains": [
+    "Roboterchirurgie",
+    "Methodik"
+   ]
+  },
+  {
+   "site": "pharma",
+   "url": "/essays/roboterchirurgie-2026/",
+   "contains": [
+    "Roboterchirurgie"
+   ]
+  }
+ ]
+}
