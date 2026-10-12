@@ -1,0 +1,80 @@
+{
+ "schema": 1,
+ "id": "20261012T121546Z-rohstoff-platzhalter-entfernt",
+ "title": "Rohstoff: ausgeblendete Platzhalterseiten endgueltig entfernt",
+ "created": "2026-10-12T12:15:46+00:00",
+ "not_before": null,
+ "ops": [
+  {
+   "op": "remove",
+   "site": "rohstoff",
+   "path": "news/index.html",
+   "must_contain": [
+    "<title>Rohstoff-News und Marktbriefings"
+   ]
+  },
+  {
+   "op": "remove",
+   "site": "rohstoff",
+   "path": "preise/index.html",
+   "must_contain": [
+    "<title>Mitgliedschaft und Preise"
+   ]
+  },
+  {
+   "op": "remove",
+   "site": "rohstoff",
+   "path": "community/index.html",
+   "must_contain": [
+    "<title>Community und Leserkanal"
+   ]
+  },
+  {
+   "op": "remove",
+   "site": "rohstoff",
+   "path": "portfolio/index.html",
+   "must_contain": [
+    "<title>Portfolio und Beobachtungsliste"
+   ]
+  },
+  {
+   "op": "remove",
+   "site": "rohstoff",
+   "path": "watchlist/index.html",
+   "must_contain": [
+    "<title>Watchlist und priorisierte Setups"
+   ]
+  },
+  {
+   "op": "remove",
+   "site": "rohstoff",
+   "path": "fundamentaldaten/index.html",
+   "must_contain": [
+    "<title>Fundamentaldaten und Firmenportr"
+   ]
+  }
+ ],
+ "verify": [
+  {
+   "site": "rohstoff",
+   "url": "/",
+   "contains": [
+    "</html>"
+   ]
+  },
+  {
+   "site": "rohstoff",
+   "url": "/sitemap.xml",
+   "contains": [
+    "<urlset"
+   ]
+  },
+  {
+   "site": "rohstoff",
+   "url": "/analyse/goldrausch-minenfeld-lassonde-kurve/",
+   "contains": [
+    "</html>"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "schema": 1,
+ "id": "20261012T105903Z-pharma-platzhalter-entfernt",
+ "title": "Pharma: nicht mehr verlinkte Platzhalterseiten endgueltig entfernt",
+ "created": "2026-10-12T10:59:03+00:00",
+ "not_before": null,
+ "ops": [
+  {
+   "op": "remove",
+   "site": "pharma",
+   "path": "news/index.html",
+   "must_contain": [
+    "<title>Pharma-News, Marktbriefings und Katalysatoren</title>"
+   ]
+  },
+  {
+   "op": "remove",
+   "site": "pharma",
+   "path": "archiv/index.html",
+   "must_contain": [
+    "<title>Archiv älterer Analysen</title>"
+   ]
+  },
+  {
+   "op": "remove",
+   "site": "pharma",
+   "path": "faq/index.html",
+   "must_contain": [
+    "<title>Häufige Fragen</title>"
+   ]
+  },
+  {
+   "op": "remove",
+   "site": "pharma",
+   "path": "community/index.html",
+   "must_contain": [
+    "<title>Community und Debatte</title>"
+   ]
+  },
+  {
+   "op": "remove",
+   "site": "pharma",
+   "path": "portfolio/index.html",
+   "must_contain": [
+    "<title>Portfolio, Logbuch und Monitoring</title>"
+   ]
+  }
+ ],
+ "verify": [
+  {
+   "site": "pharma",
+   "url": "/",
+   "contains": [
+    "</html>"
+   ]
+  },
+  {
+   "site": "pharma",
+   "url": "/sitemap.xml",
+   "contains": [
+    "<urlset"
+   ]
+  },
+  {
+   "site": "pharma",
+   "url": "/essays/roboterchirurgie-2026/",
+   "contains": [
+    "</html>"
+   ]
+  }
+ ]
+}

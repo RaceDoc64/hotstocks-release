@@ -1,0 +1,57 @@
+{
+ "schema": 1,
+ "id": "20261012T140722Z-pharma-roboter-einzelanalysen-entfernt",
+ "title": "Pharma: vier Roboterchirurgie-Einzelanalysen endgueltig entfernt",
+ "created": "2026-10-12T14:07:22+00:00",
+ "not_before": null,
+ "ops": [
+  {
+   "op": "remove",
+   "site": "pharma",
+   "path": "analyse/isrg-intuitive-surgical/index.html",
+   "must_contain": [
+    "<title>Intuitive Surgical (ISRG)"
+   ]
+  },
+  {
+   "op": "remove",
+   "site": "pharma",
+   "path": "analyse/ss-innovations/index.html",
+   "must_contain": [
+    "<title>SS Innovations International (SSII)"
+   ]
+  },
+  {
+   "op": "remove",
+   "site": "pharma",
+   "path": "analyse/shenzhen-edge-medical/index.html",
+   "must_contain": [
+    "<title>Shenzhen Edge Medical (2675)"
+   ]
+  },
+  {
+   "op": "remove",
+   "site": "pharma",
+   "path": "analyse/medtronic-mdt/index.html",
+   "must_contain": [
+    "<title>Medtronic (MDT)"
+   ]
+  }
+ ],
+ "verify": [
+  {
+   "site": "pharma",
+   "url": "/",
+   "contains": [
+    "</html>"
+   ]
+  },
+  {
+   "site": "pharma",
+   "url": "/essays/roboterchirurgie-2026/",
+   "contains": [
+    "</html>"
+   ]
+  }
+ ]
+}

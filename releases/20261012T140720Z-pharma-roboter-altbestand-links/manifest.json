@@ -1,0 +1,146 @@
+{
+ "schema": 1,
+ "id": "20261012T140720Z-pharma-roboter-altbestand-links",
+ "title": "Pharma: Roboterchirurgie-Altbestand (Themendossier und 4 Einzelanalysen) bereinigt",
+ "created": "2026-10-12T14:07:20+00:00",
+ "not_before": null,
+ "ops": [
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "index.html",
+   "edits": [
+    {
+     "find": "<section class=\"ph-robot\"><div><div class=\"ph-eyebrow\">MedTech · Vorhandenes Themendossier</div><h2>Roboterchirurgie: Marktführer und Herausforderer</h2><p>Intuitive Surgical und SS Innovations stehen im bestehenden Themenbereich nebeneinander. Die Einzelanalysen bleiben mit ihrem ursprünglichen Datenstand erhalten.</p><div class=\"ph-robot-links\"><a class=\"ph-read\" href=\"/analyse/isrg-intuitive-surgical/\">Intuitive Surgical →</a><a class=\"ph-read\" href=\"/analyse/ss-innovations/\">SS Innovations →</a></div></div><aside><strong>Leserhinweis · Keine neue Empfehlung</strong><p>Die Neugestaltung aktualisiert keine Kurse, Kursziele, Bewertungen oder klinischen Aussagen. Bestandsinformationen müssen vor einer Anlageentscheidung neu geprüft werden.</p><a class=\"ph-read\" href=\"/methodik/\">Methodik &amp; Einordnung →</a></aside></section>",
+     "replace": "",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "analyse/index.html",
+   "edits": [
+    {
+     "find": "<li>Einzelanalysen zu ISRG und SSII mit ursprünglichem Datenstand</li>",
+     "replace": "",
+     "count": 1
+    },
+    {
+     "find": "<div class=\"article-grid\" style=\"display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:22px\">\n<div class=\"article-card\" style=\"background:rgba(15,27,43,.6);border:1px solid #27476d;border-radius:18px;overflow:hidden\">\n<a href=\"/analyse/isrg-intuitive-surgical/\" style=\"text-decoration:none;color:inherit\"><img src=\"/assets/isrg_thumb.jpg\" alt=\"Intuitive Surgical Roboterchirurgie\" style=\"width:100%;height:150px;object-fit:cover;display:block\">\n<div style=\"padding:18px\"><div style=\"font-size:11px;text-transform:uppercase;letter-spacing:.16em;color:#7dd3fc\">Einzelanalyse · Marktführer</div>\n<h3 style=\"margin:8px 0 6px;font-size:20px;color:#eef5ff\">Intuitive Surgical (ISRG)</h3>\n<p style=\"color:#d6e5f7;font-size:14px;line-height:1.6\">Die Festung der Roboterchirurgie: Fundament, Technik und Sentiment mit echten Daten. · Kursziel-Konsens ~490 $ (≈ +28 %).</p>\n<div style=\"margin-top:10px;color:#8cc6ff;font-weight:700\">Analyse lesen →</div></div></a></div>\n<div class=\"article-card\" style=\"background:rgba(15,27,43,.6);border:1px solid #27476d;border-radius:18px;overflow:hidden\">\n<a href=\"/analyse/ss-innovations/\" style=\"text-decoration:none;color:inherit\"><img src=\"/assets/ssii_thumb.jpg\" alt=\"SS Innovations Roboterchirurgie\" style=\"width:100%;height:150px;object-fit:cover;display:block\">\n<div style=\"padding:18px\"><div style=\"font-size:11px;text-transform:uppercase;letter-spacing:.16em;color:#7dd3fc\">Einzelanalyse · Herausforderer</div>\n<h3 style=\"margin:8px 0 6px;font-size:20px;color:#eef5ff\">SS Innovations (SSII)</h3>\n<p style=\"color:#d6e5f7;font-size:14px;line-height:1.6\">Der kostengünstige Herausforderer aus dem Essay: schnelles Wachstum, hoher Kapitalbedarf. · Spekulativ, klare Nische.</p>\n<div style=\"margin-top:10px;color:#8cc6ff;font-weight:700\">Analyse lesen →</div></div></a></div>\n</div>",
+     "replace": "",
+     "count": 1
+    },
+    {
+     "find": "den neuen Essay zur Roboterchirurgie und die zugehörigen Einzelanalysen. Die Einzelanalysen tragen ihren ursprünglichen Datenstand.",
+     "replace": "den neuen Essay zur Roboterchirurgie.",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "favoriten/index.html",
+   "edits": [
+    {
+     "find": "<a href=\"/analyse/isrg-intuitive-surgical/\" class=\"favcard\"><img src=\"/assets/isrg_thumb.jpg\" alt=\"Intuitive Surgical\" loading=\"lazy\"><div class=\"b\"><div class=\"ticker\">ISRG · Intuitive Surgical</div><p class=\"desc\">Marktführer Robotik · da Vinci</p><div class=\"kv\"><span>Kurs</span><b>383,54 $</b></div><div class=\"kv\"><span>Konsens</span><b>Strong Buy</b></div><div class=\"kv\"><span>Smart Score</span><b>9/10</b></div><div class=\"kv\"><span>Kursziel</span><b>~490 $</b></div><div class=\"kv\"><span>Upside</span><b class=\"pos\">+28 %</b></div></div></a>",
+     "replace": "",
+     "count": 1
+    },
+    {
+     "find": "<a href=\"/analyse/ss-innovations/\" class=\"favcard\"><img src=\"/assets/ssii_thumb.jpg\" alt=\"SS Innovations\" loading=\"lazy\"><div class=\"b\"><div class=\"ticker\">SSII · SS Innovations</div><p class=\"desc\">Herausforderer · SSi Mantra</p><div class=\"kv\"><span>Kurs</span><b>3,26 $</b></div><div class=\"kv\"><span>Konsens</span><b>–</b></div><div class=\"kv\"><span>Smart Score</span><b>3/10</b></div><div class=\"kv\"><span>Kursziel</span><b>–</b></div><div class=\"kv\"><span>Upside</span><b class=\"\">–</b></div></div></a>",
+     "replace": "",
+     "count": 1
+    },
+    {
+     "find": "<a href=\"/analyse/shenzhen-edge-medical/\" class=\"favcard\"><img src=\"/assets/2675_thumb.jpg\" alt=\"Shenzhen Edge Medical\" loading=\"lazy\"><div class=\"b\"><div class=\"ticker\">2675 · Shenzhen Edge Medical</div><p class=\"desc\">Chin. Robotik-Challenger</p><div class=\"kv\"><span>Kurs</span><b>~38 HKD</b></div><div class=\"kv\"><span>Konsens</span><b>–</b></div><div class=\"kv\"><span>Smart Score</span><b>–</b></div><div class=\"kv\"><span>Kursziel</span><b>–</b></div><div class=\"kv\"><span>Upside</span><b class=\"\">–</b></div></div></a>",
+     "replace": "",
+     "count": 1
+    },
+    {
+     "find": "<a href=\"/analyse/medtronic-mdt/\" class=\"favcard\"><img src=\"/assets/mdt_thumb.jpg\" alt=\"Medtronic\" loading=\"lazy\"><div class=\"b\"><div class=\"ticker\">MDT · Medtronic</div><p class=\"desc\">Medizintechnik-Konzern</p><div class=\"kv\"><span>Kurs</span><b>92,77 $</b></div><div class=\"kv\"><span>Konsens</span><b>Buy</b></div><div class=\"kv\"><span>Smart Score</span><b>10/10</b></div><div class=\"kv\"><span>Kursziel</span><b>103,41 $</b></div><div class=\"kv\"><span>Upside</span><b class=\"pos\">+11 %</b></div></div></a>",
+     "replace": "",
+     "count": 1
+    },
+    {
+     "find": "<li><strong>Robotik & Chirurgie:</strong> ISRG, SSII, 2675</li>",
+     "replace": "",
+     "count": 1
+    },
+    {
+     "find": "ABT, MDT, MDLN",
+     "replace": "ABT, MDLN",
+     "count": 1
+    },
+    {
+     "find": ">12 Favoriten<",
+     "replace": ">8 Favoriten<",
+     "count": 1
+    },
+    {
+     "find": "12 Analysen zu Robotik, Medizintechnik",
+     "replace": "8 Analysen zu Medizintechnik",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "sitemap.xml",
+   "sha256": "0fb739a78f212733d2ee5927608acdab6530bfe6485343eea8ec8f927846b8e4",
+   "size": 1910,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "llms.txt",
+   "sha256": "0410a36ce13d7f38ef5c9a755c22ac24278c8333f6a52b55cfe0ce29377377c9",
+   "size": 3478,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "feed.xml",
+   "sha256": "0459dd236487452ac4e2f9b9a941487e16bb936239128e3d715e2bd5dc8ad638",
+   "size": 4282,
+   "overwrite": true
+  }
+ ],
+ "verify": [
+  {
+   "site": "pharma",
+   "url": "/",
+   "contains": [
+    "</html>",
+    "/essays/roboterchirurgie-2026/"
+   ]
+  },
+  {
+   "site": "pharma",
+   "url": "/analyse/",
+   "contains": [
+    "</html>"
+   ]
+  },
+  {
+   "site": "pharma",
+   "url": "/favoriten/",
+   "contains": [
+    "</html>",
+    "favcard"
+   ]
+  },
+  {
+   "site": "pharma",
+   "url": "/sitemap.xml",
+   "contains": [
+    "<urlset"
+   ]
+  }
+ ]
+}
