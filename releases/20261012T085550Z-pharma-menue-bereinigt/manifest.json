@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "id": "20261012T084304Z-pharma-menue-bereinigt",
- "title": "Pharma: Menue und Verzeichnisse bereinigt (News, Archiv, FAQ, Community, Portfolio entfernt)",
- "created": "2026-10-12T08:43:04+00:00",
+ "id": "20261012T085550Z-pharma-menue-bereinigt",
+ "title": "Pharma: Menue und Verzeichnisse bereinigt (News, Archiv, FAQ, Community, Portfolio; Attrappen-Eintraege)",
+ "created": "2026-10-12T08:55:50+00:00",
  "not_before": null,
  "ops": [
   {
@@ -42,6 +42,41 @@
     {
      "find": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link active open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/news/\">News</a><a class=\"plain\" href=\"/methodik/\">Methodik</a><a class=\"plain\" href=\"/portfolio/\">Portfolio</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n<a href=\"/archiv/\">Archiv</a>\n<a href=\"/community/\">Community</a>\n<a href=\"/faq/\">FAQ</a>\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
      "replace": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link active open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/methodik/\">Methodik</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n\n\n\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
+     "count": 1
+    },
+    {
+     "find": "<div class=\"post\"><div class=\"meta\">2026-03-15 · Analyse</div><h3>Basis-Analyse März 2026: Top-3 SMMT 7.5/10, DFTX 6.8/10, AKTS</h3><p>Pharma-Basisanalyse März 2026: Top-3 Kaufempfehlungen SMMT (7.5/10), DFTX (6.8/10), AKTS (6.5/10). Disruptoren DFTX, ABVX, GHRS mit Upside &gt;50%.</p></div>",
+     "replace": "",
+     "count": 1
+    },
+    {
+     "find": "<div class=\"post\"><div class=\"meta\">2026-03-26 · Analyse</div><h3>Analyse #2 · März 2026: SMMT, DFTX, ARWR – Portfolio-Änderung</h3><p>Pharma-Analyse Update #2 vom 26. März 2026: Top-3 SMMT, DFTX, ARWR. Portfolio-Änderung OCGN→DFTX. Vollständige KI-Bewertung mit FDA-Katalysatoren.</p></div>",
+     "replace": "",
+     "count": 1
+    },
+    {
+     "find": "<div class=\"post\"><div class=\"meta\">2026-03-27 · Analyse</div><h3>Analyse #3 · März 2026: Top-3 SMMT, INCY, ARWR + 3 Disruptoren</h3><p>Pharma-Analyse Update #3 vom 27. März 2026: Top-3 Kaufkandidaten SMMT, INCY, ARWR. Disruptoren RVMD, KYMR, BLUE mit Upside-Potenzial über 50%.</p></div>",
+     "replace": "",
+     "count": 1
+    },
+    {
+     "find": "<div class=\"post\"><div class=\"meta\">2026-04-05 · Analyse</div><h3>ANI Pharmaceuticals (NASDAQ: ANIP) – Der stille Anker im spekulativen Pharma-Portfolio</h3><p>Warum ANI Pharmaceuticals (ANIP) trotz spekulativem Umfeld ein stabiles Fundament bietet: Fundamentalanalyse, Wissenschaftsteil (ACTH-Wirkweise, Cortrophin-Timeline), technische Analyse und Bewertung des Upside-Potenzials bis 124 USD. Autor: Joachim Friese, April 2026.</p></div>",
+     "replace": "",
+     "count": 1
+    },
+    {
+     "find": "<div class=\"post\"><div class=\"meta\">2026-04-24 · Analyse</div><h3>Pharma Hotstocks Spezialanalyse: Die disruptivsten Biotech-Trends &amp; Top 10 Aktien für 2026/2027</h3><p>Tiefgründige Analyse der 5 disruptivsten Biotech-Bereiche 2026/2027 mit Top 10 Aktien-Kandidaten, vollständiger technischer Analyse, konkreten Einstiegspunkten und Stop-Loss-Marken. Basierend auf FDA-Daten, ClinicalTrials und aktuellen Marktberichten.</p></div>",
+     "replace": "",
+     "count": 1
+    },
+    {
+     "find": "<p>Analysen-Zentrale · Haupt-Hub der Website Hier beginnen neue Leser – und hier priorisiert sich das Research Die Analysen-Seite ist bewusst der erste Einstiegspunkt von pharma-hotstocks. Hier wird nicht nur gesammelt, sondern gewichtet:…</p><div class=\"copy\">Analysen-Zentrale · Haupt-Hub der Website Hier beginnen neue Leser – und hier priorisiert sich das Research Die Analysen-Seite ist bewusst der erste Einstiegspunkt von pharma-hotstocks. Hier wird nicht nur gesammelt, sondern gewichtet: welche Idee aktuell am relevantesten ist , welche Ausgabe zuerst gelesen werden sollte und wann ein Wechsel zu Portfolio , Pharma-News oder Community sinnvoller ist. Methodik verstehen → Zum News-Hub → 1 · Tiefenanalyse zuerst ANI Pharmaceuticals: Der stille Anker im spekulativen Pharma-Portfolio Der Deep Dive liefert die sauberste Erstorientierung, weil Fundamentalanalyse, Portfoliologik und wissenschaftliche Einordnung zusammengeführt werden. Analyse lesen → 2 · Wenn du den Bestand sehen willst Portfolio-Update April 2026: 13 Positionen – SMMT +15,3% Wechsle ins Portfolio, wenn du nicht nach neuen Ideen suchst, sondern nach laufendem Monitoring, Gewichtung und Status der Kernwerte. Zum Monitoring → 3 · Für Kontext jenseits der Kernanalyse Community, Essays und Spezialfälle sichtbar weiterdenken Longforms, Debatte und zusätzliche Spezialthemen leben im Community-Bereich – bewusst getrennt von den priorisierten Analyseausgaben. Zur Community → ⚗️ KI-Research · Pharma &amp; Biotech Analysen Alle 3 Tage redaktionell kuratiert: 13 Kernaktien, darunter Intuitive Surgical (ISRG) und Arrowhead Pharmaceuticals (ARWR), dazu Top-3 Kaufkandidaten, 3 Disruptoren und die wichtigsten wissenschaftlichen sowie regulatorischen Katalysatoren — verdichtet zu einem…</div>",
+     "replace": "<p>Hier finden Sie die aktuell veröffentlichten Beiträge von Pharma Hotstocks: den neuen Essay zur Roboterchirurgie und die zugehörigen Einzelanalysen. Die Einzelanalysen tragen ihren ursprünglichen Datenstand.</p>",
+     "count": 1
+    },
+    {
+     "find": "<div class=\"badge\">Fokusbereich Analyse</div><ul><li>Hub-Seite „Analysen“ extrahiert</li><li>Die wichtigsten Analyse-Beiträge sind priorisiert zusammengeführt</li><li>Spezialanalysen und Deep Dives sind direkt angebunden</li></ul>",
+     "replace": "<div class=\"badge\">Fokusbereich Analyse</div><ul><li>Neu: Essay „Roboterchirurgie 2026“ mit Quellen und Offenlegung</li><li>Einzelanalysen zu ISRG und SSII mit ursprünglichem Datenstand</li><li>Methodik: so entstehen unsere Einordnungen</li></ul>",
      "count": 1
     }
    ]
@@ -251,6 +286,36 @@
      "find": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link active open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/news/\">News</a><a class=\"plain\" href=\"/methodik/\">Methodik</a><a class=\"plain\" href=\"/portfolio/\">Portfolio</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n<a href=\"/archiv/\">Archiv</a>\n<a href=\"/community/\">Community</a>\n<a href=\"/faq/\">FAQ</a>\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
      "replace": "<nav aria-label=\"Hauptnavigation\" class=\"nav\"><div><a aria-label=\"Pharma Hotstocks – Startseite\" class=\"brand\" href=\"/\"><span>Pharma</span><span aria-hidden=\"true\" class=\"ph-brand-separator\"></span><span>Hotstocks</span></a><div class=\"sub\">Pharma-, Biotech- und MedTech-Research mit klinischer Einordnung und Kapitalmarkt-Fokus</div></div><div class=\"links\"><a class=\"plain\" href=\"/\">Start</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-0\" aria-expanded=\"false\" class=\"nav-link active open-trigger\" type=\"button\">Analysen ▾</button><div class=\"menu\" id=\"ph-menu-0\"><a href=\"/analyse/\">Analyse-Zentrale</a>\n<a href=\"/essays/\">Essays &amp; Deep Dives</a>\n<a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie 2026</a></div></div><a class=\"plain\" href=\"/methodik/\">Methodik</a><div class=\"nav-item\"><button aria-controls=\"ph-menu-1\" aria-expanded=\"false\" class=\"nav-link open-trigger\" type=\"button\">Plattform ▾</button><div class=\"menu\" id=\"ph-menu-1\"><a href=\"/ueber/\">Über uns</a>\n\n\n\n<a href=\"/kontakt/\">Kontakt</a></div></div></div></nav>",
      "count": 1
+    },
+    {
+     "find": "<div class=\"post\"><div class=\"meta\">Essay / Deep Dive · 2026-03-15</div><h3>Warum Pharma Hotstocks? KI-Analyse statt Bauchgefühl</h3><p>Pharma Hotstocks bietet KI-gestützte Aktienanalysen für den Pharma &amp; Biotech Sektor. Alle 3 Tage aktualisiert mit Top-Kaufkandidaten, FDA-Katalysatoren und wissenschaftlichen Hintergründen.</p></div>",
+     "replace": "",
+     "count": 1
+    },
+    {
+     "find": "<div class=\"post\"><div class=\"meta\">Essay / Deep Dive · 2026-03-15</div><h3>KI revolutioniert Pharma-Research: Schneller, präziser, profitabler</h3><p>Künstliche Intelligenz revolutioniert die Pharma-Aktienanalyse: Schnellere Auswertung von FDA-Daten, klinischen Studien und Marktbewegungen für bessere Investitionsentscheidungen.</p></div>",
+     "replace": "",
+     "count": 1
+    },
+    {
+     "find": "<div class=\"post\"><div class=\"meta\">Essay / Deep Dive · 2026-03-15</div><h3>Top 5 Pharma-Wachstumsaktien: Pipeline, FDA &amp; Upside-Potenzial</h3><p>Die fünf aussichtsreichsten Wachstumsaktien im Pharma &amp; Biotech Sektor: Analyse von Pipeline, FDA-Katalysatoren, Marktpotenzial und Chance/Risiko-Verhältnis.</p></div>",
+     "replace": "",
+     "count": 1
+    },
+    {
+     "find": "<div class=\"post\"><div class=\"meta\">Essay / Deep Dive · 2026-03-15</div><h3>Klinische Studien &amp; Aktien: Wie Phase-3-Daten Kurse bewegen</h3><p>Wissenschaftliche Publikationen und klinische Studiendaten als Grundlage für Pharma-Investitionen: Wie Peer-Review-Ergebnisse Aktienkurse beeinflussen.</p></div>",
+     "replace": "",
+     "count": 1
+    },
+    {
+     "find": "<div class=\"post\"><div class=\"meta\">Essay / Deep Dive · 2026-03-15</div><h3>Pharma-Investoren-Strategien: FDA-Kalender, Katalysatoren &amp; Risiko</h3><p>Erfolgreiche Strategien für Pharma-Investoren: Portfolio-Diversifikation, FDA-Kalender-Trading, Biotech-Katalysatoren und Risikomanagement im Pharma-Sektor.</p></div>",
+     "replace": "",
+     "count": 1
+    },
+    {
+     "find": "<div class=\"badge\">Longform-Hub</div><ul><li>Neuer PDF-Research-Text eingebaut</li><li>Essay-/Deep-Dive-Beiträge aus Export erkannt</li><li>Später chronologisch und thematisch filterbar</li></ul>",
+     "replace": "<div class=\"badge\">Longform</div><ul><li>Aktuell: „Die Hand am Joystick, das Können im Kopf“ (Roboterchirurgie 2026)</li><li>Weitere Essays erscheinen hier, sobald sie veröffentlicht sind</li></ul>",
+     "count": 1
     }
    ]
   },
@@ -377,15 +442,7 @@
    "site": "pharma",
    "url": "/",
    "contains": [
-    "Roboterchirurgie",
-    "Methodik"
-   ]
-  },
-  {
-   "site": "pharma",
-   "url": "/essays/roboterchirurgie-2026/",
-   "contains": [
-    "Roboterchirurgie"
+    "</html>"
    ]
   }
  ]
