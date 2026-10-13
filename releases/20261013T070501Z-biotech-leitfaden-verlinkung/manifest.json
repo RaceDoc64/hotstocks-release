@@ -1,0 +1,83 @@
+{
+ "schema": 1,
+ "id": "20261013T070501Z-biotech-leitfaden-verlinkung",
+ "title": "Verlinkung Biotech-Leitfaden: /essays/, Startseite, /analyse/",
+ "created": "2026-10-13T07:05:01+00:00",
+ "not_before": null,
+ "ops": [
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "essays/index.html",
+   "edits": [
+    {
+     "find": "<div class=\"posts\"><div class=\"post\"><div class=\"meta\">Research Text</div>",
+     "replace": "<div class=\"posts\"><div class=\"post\"><div class=\"meta\">Einsteiger-Leitfaden · Dr. Joachim Friese · 13.10.2026</div><h3><a style=\"color:var(--text);text-decoration:none\" href=\"/essays/biotech-investieren-einsteiger-leitfaden/\">Biotech-Aktien richtig lesen: Der Einsteiger-Leitfaden</a></h3><p>Erfolgsraten, FDA-Verfahren, Studien lesen, Cash-Runway, Verwässerung, Optionsmarkt und fünf Fallstudien – mit Rechner und 74 Primärquellen. Allgemeine Finanzbildung, keine Anlageberatung.</p></div><div class=\"post\"><div class=\"meta\">Research Text</div>",
+     "count": 1
+    },
+    {
+     "find": "<li>Aktuell: „Die Hand am Joystick, das Können im Kopf“ (Roboterchirurgie 2026)</li>",
+     "replace": "<li>Neu: „Biotech-Aktien richtig lesen: Der Einsteiger-Leitfaden“ (Biotech-Einstieg)</li><li>Aktuell: „Die Hand am Joystick, das Können im Kopf“ (Roboterchirurgie 2026)</li>",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "index.html",
+   "edits": [
+    {
+     "find": "<article class=\"ph-story\"><div class=\"ph-number\">03 · Essays</div><h3>Über die Schlagzeile hinaus</h3><p>Die bestehende Übersicht zu Essays und Deep Dives verbindet medizinische Fragen mit Technologie und Kapitalmarkt.</p><a href=\"/essays/\">Essays entdecken →</a></article>",
+     "replace": "<article class=\"ph-story\"><div class=\"ph-number\">03 · Neuer Leitfaden</div><h3>Biotech-Aktien richtig lesen: Der Einsteiger-Leitfaden</h3><p>Erfolgsraten, FDA-Verfahren, Studien lesen, Cash-Runway, Verwässerung, Optionsmarkt und fünf Fallstudien – mit Rechner und 74 Primärquellen. Allgemeine Finanzbildung, keine Anlageberatung.</p><a href=\"/essays/biotech-investieren-einsteiger-leitfaden/\">Leitfaden lesen →</a> · <a href=\"/essays/\">Alle Essays →</a></article>",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "analyse/index.html",
+   "edits": [
+    {
+     "find": "aktuell veröffentlichten Beiträge von Pharma Hotstocks: den neuen Essay zur Roboterchirurgie.",
+     "replace": "aktuell veröffentlichten Beiträge von Pharma Hotstocks: den Essay zur Roboterchirurgie und den neuen Einsteiger-Leitfaden zu Biotech-Aktien.",
+     "count": 1
+    },
+    {
+     "find": "<p><a href=\"/essays/roboterchirurgie-2026/\" data-rb-card=\"20261011\" style=\"color:var(--accent2)\">Zum Essay →</a></p></div>",
+     "replace": "<p><a href=\"/essays/roboterchirurgie-2026/\" data-rb-card=\"20261011\" style=\"color:var(--accent2)\">Zum Essay →</a></p></div><div class=\"card section\"><h2>Einsteiger-Leitfaden</h2><p><strong>Biotech-Aktien richtig lesen: Der Einsteiger-Leitfaden</strong> erklärt Erfolgsraten, Zulassungsverfahren, Studien, Cash-Runway, Verwässerung und Marktmechanik – mit Rechner, Fallstudien und Primärquellen.</p><p><a href=\"/essays/biotech-investieren-einsteiger-leitfaden/\" style=\"color:var(--accent2)\">Zum Leitfaden →</a></p></div>",
+     "count": 1
+    },
+    {
+     "find": "<li>Neu: Essay „Roboterchirurgie 2026“ mit Quellen und Offenlegung</li>",
+     "replace": "<li>Neu: Einsteiger-Leitfaden „Biotech-Aktien richtig lesen“</li><li>Neu: Essay „Roboterchirurgie 2026“ mit Quellen und Offenlegung</li>",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "verify": [
+  {
+   "site": "pharma",
+   "url": "/essays/",
+   "contains": [
+    "Biotech-Aktien richtig lesen"
+   ]
+  },
+  {
+   "site": "pharma",
+   "url": "/",
+   "contains": [
+    "Leitfaden lesen"
+   ]
+  },
+  {
+   "site": "pharma",
+   "url": "/analyse/",
+   "contains": [
+    "Zum Leitfaden"
+   ]
+  }
+ ]
+}

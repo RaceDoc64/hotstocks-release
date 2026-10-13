@@ -1,0 +1,24 @@
+# Pharma Hotstocks
+
+> Pharma, Biotech & MedTech: unabhängige, quellenbasierte Fachanalysen (Autor: Dr. Joachim Friese, Arzt und Chirurg). Keine Anlageberatung. Jede Analyse nennt Datenstand, Quellen, Methodik und Interessenkonflikte.
+
+## Analysen und Essays
+
+- [Biotech-Aktien richtig lesen: Der Einsteiger-Leitfaden zwischen Verfünffachung und Totalverlust](https://www.pharma-hotstocks.net/essays/biotech-investieren-einsteiger-leitfaden/): Wie man Biotech-Aktien als Einsteiger prüft: Erfolgsraten, FDA-Verfahren, Studien lesen, Cash-Runway, Verwässerung, Optionsmarkt und fünf Fallstudien – mit Rechner und Primärquellen.
+- [Abbott Laboratories (ABT) – Persönliche Einzelanalyse](https://www.pharma-hotstocks.net/analyse/abbott-abt/): Abbott Laboratories (ABT): persönliche Einzelanalyse – Medizintechnik, Diagnostik und Dividende.
+- [Immatics (IMTX) – Persönliche Einzelanalyse](https://www.pharma-hotstocks.net/analyse/immatics-imtx/): Immatics (IMTX): persönliche Einzelanalyse – T-Zell-Therapien gegen Krebs.
+- [ImmunityBio (IBRX) – Persönliche Einzelanalyse](https://www.pharma-hotstocks.net/analyse/immunitybio-ibrx/): ImmunityBio (IBRX): persönliche Einzelanalyse – Immuntherapie und Krebs-Pipeline.
+- [Medline (MDLN) – Persönliche Einzelanalyse](https://www.pharma-hotstocks.net/analyse/medline-mdln/): Medline (MDLN): persönliche Einzelanalyse – Klinik-Verbrauchsmaterial und Bedarfsartikel.
+- [NurExone Biologic (NRX) – Persönliche Einzelanalyse](https://www.pharma-hotstocks.net/analyse/nurexone-nrx/): NurExone (NRX): persönliche Einzelanalyse – Exosomen-Therapie für Rückenmark und Schädel-Hirn.
+- [Sensorion (Euronext Paris) (ALSEN) – Persönliche Einzelanalyse](https://www.pharma-hotstocks.net/analyse/sensorion-alsen/): Sensorion (ALSEN.PA): persönliche Einzelanalyse des Innenohr-Biotech mit Gentherapie-Pipeline.
+- [Veeva Systems (VEEV) – Persönliche Einzelanalyse](https://www.pharma-hotstocks.net/analyse/veeva-veev/): Veeva Systems (VEEV): persönliche Einzelanalyse – Life-Science-Cloud und CRM-Software.
+- [Viking Therapeutics (VKTX) – Persönliche Einzelanalyse](https://www.pharma-hotstocks.net/analyse/viking-vktx/): Viking Therapeutics (VKTX): persönliche Einzelanalyse – Adipositas-Pipeline (GLP-1/Stoffwechsel).
+- [Die Hand am Joystick, das Können im Kopf – Roboterchirurgie 2026](https://www.pharma-hotstocks.net/essays/roboterchirurgie-2026/): Roboterchirurgie 2026: Verbreitung, Ausbildung und fünf Aktien im Drei-Ebenen-Check (ISRG, SSII, MDT, SYK, Edge Medical) – faktengeprüft, mit Quellen und Offenlegung von Interessenkonflikten.
+
+## Orientierung
+
+- [Analyse-Zentrale](https://www.pharma-hotstocks.net/analyse/): Analysen-Zentrale · Haupt-Hub der Website Hier beginnen neue Leser – und hier priorisiert sich das Research Die Analysen-Seite ist bewusst der erste…
+- [Research, Essays und Deep Dives](https://www.pharma-hotstocks.net/essays/): Hier bündelt Pharma Hotstocks längere Research-Texte, medizinisch-technische Deep Dives und strategische Stücke jenseits des Tagesrhythmus. Der Bereich vereint etablierte Essay-Themen mit neuen Research-Formaten.
+- [Meine persönlichen Favoriten – Medizintechnik- & Biotech-Portfolio](https://www.pharma-hotstocks.net/favoriten/): Die persönlichen Medizin-Favoriten von Dr. Joachim Friese: 12 Analysen zu Robotik, Medizintechnik, Biotech und Life-Science-Software.
+- [Methodik – So analysieren wir Pharma- und Biotech-Aktien](https://www.pharma-hotstocks.net/methodik/): Wie Pharma Hotstocks Pharma-, Biotech- und MedTech-Aktien analysiert: klinische Daten, Finanzen, Katalysatoren und Timing – transparent und verständlich erklärt.
+- [Über Pharma Hotstocks](https://www.pharma-hotstocks.net/ueber/): Über Pharma Hotstocks: medizinische Einordnung, klinische Daten und Investmentanalyse.

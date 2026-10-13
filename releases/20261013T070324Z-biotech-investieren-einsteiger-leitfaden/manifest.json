@@ -1,0 +1,82 @@
+{
+ "schema": 1,
+ "id": "20261013T070324Z-biotech-investieren-einsteiger-leitfaden",
+ "title": "Veroeffentlichung pharma: Biotech-Aktien richtig lesen: Der Einsteiger-Leitfaden zwisc",
+ "created": "2026-10-13T07:03:24+00:00",
+ "not_before": null,
+ "ops": [
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "essays/biotech-investieren-einsteiger-leitfaden/index.html",
+   "sha256": "de0b8418562fcac699005e1709594f093b177c19fd8049208065e4599b359685",
+   "size": 85052,
+   "overwrite": false
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "og/essays-biotech-investieren-einsteiger-leitfaden.png",
+   "sha256": "f74229b55fa78b19cd521aa74dc4cf7cb9ccf90708ddf8ba3715583c19b89fb1",
+   "size": 54766,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "essays/biotech-investieren-einsteiger-leitfaden/bild1-hero.jpg",
+   "sha256": "845e4f07d9dac20b548f1392452979e71b8176170908d560611b5bcce89de028",
+   "size": 220768,
+   "overwrite": false
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "essays/biotech-investieren-einsteiger-leitfaden/bild2-risiko-ertrag.jpg",
+   "sha256": "201cf5ad593504b7999a4c98b44d64d2f55ba761f056791007cfc04bb7161d8f",
+   "size": 263339,
+   "overwrite": false
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "essays/biotech-investieren-einsteiger-leitfaden/bild3-zulassung.jpg",
+   "sha256": "6efc704840434539b0dc62c6f6ccc7e0b9a3c09d75a3891ee335da61cbdc066a",
+   "size": 157484,
+   "overwrite": false
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "sitemap.xml",
+   "sha256": "324a19825700158ad5230963e1eac6044d824eaaccc888a37ae79df912c43e73",
+   "size": 2043,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "feed.xml",
+   "sha256": "6361dbf9ee5465240ac12b11e884323e3cfd9b07f52c265bf21d0a4de6614095",
+   "size": 4840,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "llms.txt",
+   "sha256": "183c6ad02856e79da8b76e6b2fa68fa948f5dca6c71fee1a6a5effa02eca5a12",
+   "size": 3852,
+   "overwrite": true
+  }
+ ],
+ "verify": [
+  {
+   "site": "pharma",
+   "url": "/essays/biotech-investieren-einsteiger-leitfaden/",
+   "contains": [
+    "Biotech-Aktien richtig lesen: Der Einste"
+   ]
+  }
+ ]
+}
