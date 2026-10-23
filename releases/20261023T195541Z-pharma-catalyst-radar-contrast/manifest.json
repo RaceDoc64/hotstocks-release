@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "id": "20261023T195541Z-pharma-catalyst-radar-contrast",
+ "title": "Pharma Catalyst Radar: Kontrastkorrektur",
+ "created": "2026-10-23T19:55:41+00:00",
+ "not_before": null,
+ "ops": [
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "index.html",
+   "edits": [
+    {
+     "find": "<!-- hs:pharma-catalyst-radar -->",
+     "replace": "<!-- hs:pharma-catalyst-radar -->\n<style>/* hs:pharma-catalyst-radar-contrast-fix: Schutz gegen globale dunkle Textvariablen */\n.ph-catalyst-radar .ph-catalyst-head h2{color:#f7fbfc!important}\n.ph-catalyst-radar .ph-catalyst-head p{color:#dcebef!important}\n.ph-catalyst-radar .ph-radar-card h3{color:#f7fbfc!important}\n.ph-catalyst-radar .ph-radar-card p{color:#e1eef1!important}\n.ph-catalyst-radar .ph-radar-card .ph-radar-context{color:#d5e4e8!important}\n.ph-catalyst-radar .ph-radar-card .ph-radar-disclosure{color:#d7e6e9!important}\n.ph-catalyst-radar .ph-radar-foot{color:#d8e7ea!important}\n.ph-catalyst-radar .ph-radar-foot a{color:#b6eff7!important}\n.ph-catalyst-radar .ph-radar-method{color:#c6d8dc!important}\n</style>\n<!-- hs:pharma-catalyst-radar-contrast-fix -->",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "verify": [
+  {
+   "site": "pharma",
+   "url": "/",
+   "contains": [
+    "<!-- hs:pharma-catalyst-radar -->",
+    "<!-- hs:pharma-catalyst-radar-contrast-fix -->",
+    "color:#f7fbfc!important",
+    "Pharma Catalyst Radar"
+   ]
+  }
+ ]
+}
