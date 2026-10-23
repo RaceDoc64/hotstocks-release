@@ -1,0 +1,28 @@
+{
+ "schema": 1,
+ "id": "20261023T125849Z-pharma-navy-kontrastfix",
+ "title": "Pharma: Navy-Kontrastfix Modellportfolio-Artikel",
+ "created": "2026-10-23T12:58:49+00:00",
+ "not_before": null,
+ "ops": [
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "analyse/pharma-biotech-vergleich-modellportfolio-risiken-2026/index.html",
+   "sha256": "81234a3091c02587903db0c657dec5702cf8514681ec89e54bf258c4caf17fb4",
+   "size": 37205,
+   "overwrite": true
+  }
+ ],
+ "verify": [
+  {
+   "site": "pharma",
+   "url": "/analyse/pharma-biotech-vergleich-modellportfolio-risiken-2026/",
+   "contains": [
+    "Pharma-/Biotech-Vergleich: Zehn Titel",
+    "color:#061a2e",
+    "ol.rb-src a{color:#061a2e"
+   ]
+  }
+ ]
+}
