@@ -1,0 +1,77 @@
+{
+ "schema": 1,
+ "id": "20261023T123621Z-pharma-biotech-vergleich-modellportfolio",
+ "title": "Veroeffentlichung pharma: Pharma-/Biotech-Vergleich: Zehn Titel, drei Risikokörbe – un",
+ "created": "2026-10-23T12:36:21+00:00",
+ "not_before": null,
+ "ops": [
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "analyse/pharma-biotech-vergleich-modellportfolio-risiken-2026/index.html",
+   "sha256": "3847740796a627c4f2b3b45d6bcaed1d426c7f295c17e57297d970e64bdc7ff9",
+   "size": 37179,
+   "overwrite": false
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "og/analyse-pharma-biotech-vergleich-modellportfolio-risiken-2026.png",
+   "sha256": "339c13f12fb1eaa636d9887bb2a194894f3bfb341f8aeb6e912048ffa661dc7e",
+   "size": 55429,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "sitemap.xml",
+   "sha256": "d31bce684987b79ba9fbf6392a6c647415a03ab1547878a63f0742f19962190a",
+   "size": 2190,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "feed.xml",
+   "sha256": "41dcdbeb4f21b01030548de121d27ea184d7e21d261fd01f60e1ecc4e5ee77b9",
+   "size": 5383,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "llms.txt",
+   "sha256": "157ad5ec6d56c617b717d83036853a0b952dfd38cae566a53863b243a6ced620",
+   "size": 4197,
+   "overwrite": true
+  },
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "analyse/index.html",
+   "edits": [
+    {
+     "find": "<div class=\"posts\"></div>",
+     "replace": "<div class=\"posts\"><article class=\"post\" data-hs-card=\"20261023-pharma-biotech-vergleich\"><div class=\"meta\">Analyse · Dr. Joachim Friese · 23.10.2026</div><h3><a href=\"/analyse/pharma-biotech-vergleich-modellportfolio-risiken-2026/\">Pharma-/Biotech-Vergleich: Zehn Titel, drei Risikokörbe – und ein Modellportfolio ohne Scheingenauigkeit</a></h3><p>Zehn Titel, drei Risikokörbe und ein regelgebundener Modellportfolio-Rahmen – ohne Kursziele oder Kaufaufforderung.</p></article></div>",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "verify": [
+  {
+   "site": "pharma",
+   "url": "/analyse/pharma-biotech-vergleich-modellportfolio-risiken-2026/",
+   "contains": [
+    "Pharma-/Biotech-Vergleich: Zehn Titel, d"
+   ]
+  },
+  {
+   "site": "pharma",
+   "url": "/analyse/",
+   "contains": [
+    "data-hs-card=\"20261023-pharma-biotech-vergleich\""
+   ]
+  }
+ ]
+}
