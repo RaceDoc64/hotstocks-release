@@ -1,0 +1,105 @@
+{
+ "schema": 1,
+ "id": "20261023T191822Z-pharma-research-protokoll",
+ "title": "Pharma Methodik: Research-Entscheidungsprotokoll",
+ "created": "2026-10-23T19:18:22+00:00",
+ "not_before": null,
+ "ops": [
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "methodik/research-entscheidungsprotokoll/index.html",
+   "sha256": "c196a61ff872645c5dc0c100cb079ae26fc6f6e8dafb16fe3df3bdf51b0adb9a",
+   "size": 41537,
+   "overwrite": false
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "og/methodik-research-entscheidungsprotokoll.png",
+   "sha256": "95c9a0dd0f32c057a20a3cbdcd127fed5e88d8ffb4b7d44a2f48fd3b63fca253",
+   "size": 44112,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "sitemap.xml",
+   "sha256": "76775454d547eb086a8c2f8941b08bb98ea0e03dd7bdc664cd5c16d657b5762c",
+   "size": 2316,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "feed.xml",
+   "sha256": "5f60af22ee95a7f16e5ad3b0ed8a9398c2518e7a336fe4e8c2d694a5b28cd96b",
+   "size": 5851,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "llms.txt",
+   "sha256": "9c52422da2187184eb933a55dd4c4a6c6b659ec193a4b1448229062c67387dd7",
+   "size": 4506,
+   "overwrite": true
+  },
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "methodik/index.html",
+   "edits": [
+    {
+     "find": "zu einer priorisierten Empfehlung verdichten",
+     "replace": "zu einer strukturierten Research-Einordnung verdichten",
+     "count": 1
+    },
+    {
+     "find": "</section><section class='panel'><h2>Der Ablauf in vier Schritten</h2>",
+     "replace": "</section><section class='panel' id='research-entscheidungsprotokoll'><div class='badge'>Research-Entscheidungsprotokoll</div><h2 style='margin-top:14px'>Der vollständige Prüfpfad</h2><p>Zehn verbindliche Prüfstufen: von der Primärquelle über klinische Evidenz, Kapitalbedarf und Kapitalstruktur bis zur datierten Interessenkonfliktangabe. Das Ergebnis ist eine Research-Einordnung, kein Handelssignal.</p><p><a class='btn' href='/methodik/research-entscheidungsprotokoll/'>Research-Protokoll lesen →</a></p></section><section class='panel'><h2>Der Ablauf in vier Schritten</h2>",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "verify": [
+  {
+   "site": "pharma",
+   "url": "/methodik/research-entscheidungsprotokoll/",
+   "contains": [
+    "Research-Entscheidungsprotokoll",
+    "Interessenkonflikt"
+   ]
+  },
+  {
+   "site": "pharma",
+   "url": "/methodik/",
+   "contains": [
+    "Research-Protokoll lesen",
+    "strukturierten Research-Einordnung"
+   ]
+  },
+  {
+   "site": "pharma",
+   "url": "/sitemap.xml",
+   "contains": [
+    "https://www.pharma-hotstocks.net/methodik/research-entscheidungsprotokoll/"
+   ]
+  },
+  {
+   "site": "pharma",
+   "url": "/feed.xml",
+   "contains": [
+    "https://www.pharma-hotstocks.net/methodik/research-entscheidungsprotokoll/"
+   ]
+  },
+  {
+   "site": "pharma",
+   "url": "/llms.txt",
+   "contains": [
+    "https://www.pharma-hotstocks.net/methodik/research-entscheidungsprotokoll/"
+   ]
+  }
+ ]
+}
