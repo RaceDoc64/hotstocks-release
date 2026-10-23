@@ -1,0 +1,37 @@
+{
+ "schema": 1,
+ "id": "20261023T194250Z-pharma-catalyst-radar",
+ "title": "Pharma Catalyst Radar: statische, quellengebundene Startseiten-Erstbesetzung",
+ "created": "2026-10-23T19:42:50+00:00",
+ "not_before": null,
+ "ops": [
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "index.html",
+   "edits": [
+    {
+     "find": "</style>",
+     "replace": "/* hs:pharma-catalyst-radar: statisch, quellengebunden, keine Live-API */\n.ph-catalyst-radar{margin:24px 0 22px;padding:28px;border:1px solid var(--line);border-radius:24px;background:linear-gradient(135deg,rgba(20,50,62,.88),rgba(11,26,39,.96));box-shadow:0 12px 32px rgba(0,0,0,.16)}\n.ph-catalyst-head{display:flex;gap:20px;align-items:flex-end;justify-content:space-between;margin-bottom:18px}.ph-catalyst-head h2{margin:7px 0 0;font-size:28px}.ph-catalyst-head p{margin:0;max-width:620px;color:var(--soft)}\n.ph-radar-eyebrow,.ph-radar-kind{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#91d9e4;font-weight:700}.ph-radar-eyebrow{display:block}.ph-radar-stamp{font-size:12px;color:#b4cad2;white-space:nowrap}\n.ph-radar-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.ph-radar-card{border:1px solid rgba(132,181,194,.42);border-radius:17px;padding:18px;background:rgba(7,22,34,.56);display:flex;flex-direction:column;min-width:0}.ph-radar-card h3{margin:10px 0 10px;font-size:19px;line-height:1.25;color:var(--text)}.ph-radar-card p{margin:0 0 11px;line-height:1.58;color:var(--soft)}.ph-radar-card .ph-radar-context{font-size:14px;color:#b9cbd1}.ph-radar-links{margin-top:auto;padding-top:4px}.ph-radar-links a{display:block;color:#a7e4ef;font-size:14px;line-height:1.45;text-decoration:underline;text-underline-offset:3px}.ph-radar-disclosure{margin:12px 0 0;padding-top:12px;border-top:1px solid rgba(132,181,194,.28);font-size:12px;line-height:1.55;color:#c7d6da}.ph-radar-foot{margin:17px 0 0;font-size:13px;line-height:1.55;color:#b9cbd1}.ph-radar-foot a{color:#a7e4ef}.ph-radar-method{margin-top:8px;font-size:12px;color:#aebfc5}\n@media(max-width:900px){.ph-catalyst-head{display:block}.ph-catalyst-head h2{font-size:25px}.ph-radar-stamp{display:block;margin-top:10px;white-space:normal}.ph-radar-grid{grid-template-columns:1fr}.ph-catalyst-radar{padding:21px}}\n</style>",
+     "count": 1
+    },
+    {
+     "find": "<section aria-label=\"Die drei Researchbereiche\" class=\"ph-three\">",
+     "replace": "<!-- hs:pharma-catalyst-radar -->\n<section class=\"ph-catalyst-radar\" aria-labelledby=\"ph-catalyst-title\">\n  <div class=\"ph-catalyst-head\">\n    <div><span class=\"ph-radar-eyebrow\">Quellengeprüfte Orientierung</span><h2 id=\"ph-catalyst-title\">Pharma Catalyst Radar</h2><p>Klinische, regulatorische und finanzielle Ereignisse – quellengeprüft, keine Anlageberatung.</p></div>\n    <div class=\"ph-radar-stamp\">Datenstand: 23.10.2026, 21:36 Europe/Zurich</div>\n  </div>\n  <div class=\"ph-radar-grid\">\n    <article class=\"ph-radar-card\">\n      <div class=\"ph-radar-kind\"><time datetime=\"2026-10-20\">REGULIERUNG · FDA · 20.10.2026</time></div>\n      <h3>FDA präzisiert Regeln für verschreibungspflichtige Begleit-Apps</h3>\n      <p>Die FDA veröffentlichte eine finale Leitlinie dazu, wann App-Inhalte im Umfeld verschreibungspflichtiger Arzneimittel als Kennzeichnung, Werbematerial oder Einreichungsgegenstand gelten.</p>\n      <p class=\"ph-radar-context\">Ein regulatorischer Rahmen – keine Aussage zu einem konkreten Unternehmen, Produkt oder wirtschaftlichen Ergebnis.</p>\n      <div class=\"ph-radar-links\"><a href=\"https://www.fda.gov/news-events/press-announcements/fda-issues-final-guidance-prescription-drug-apps-and-software\" target=\"_blank\" rel=\"noopener noreferrer\">FDA-Primärquelle ↗</a></div>\n      <p class=\"ph-radar-disclosure\">Kein Einzeltitel wird in dieser Karte analysiert oder bewertet.</p>\n    </article>\n<article class=\"ph-radar-card\">\n      <div class=\"ph-radar-kind\"><time datetime=\"2026-10-15\">REGULIERUNG · EMA / CHMP · 15.10.2026</time></div>\n      <h3>CHMP empfiehlt EU-Zulassung für Rasonque bei metastasiertem Pankreaskarzinom</h3>\n      <p>Der CHMP empfahl eine EU-Zulassung für Rasonque (daraxonrasib) als Monotherapie bei Erwachsenen mit metastasiertem Pankreasadenokarzinom nach mindestens einer vorherigen systemischen Therapie.</p>\n      <p class=\"ph-radar-context\">Eine positive CHMP-Stellungnahme ist noch keine Entscheidung der Europäischen Kommission und keine Aussage zu kommerziellem Erfolg oder Bewertung.</p>\n      <div class=\"ph-radar-links\"><a href=\"https://www.ema.europa.eu/en/news/ema-recommends-authorisation-rasonque-metastatic-pancreatic-cancer\" target=\"_blank\" rel=\"noopener noreferrer\">EMA-Primärquelle ↗</a></div>\n      <p class=\"ph-radar-disclosure\">Interessenkonflikt · Stand 23.10.2026: Der Autor hält keine direkte oder wirtschaftlich zurechenbare Position in Revolution Medicines (Nasdaq: RVMD) und hat keine Geschäfts-, Beratungs-, Forschungs-, Werbe-, Affiliate-, IR- oder Vergütungsbeziehung zum Unternehmen oder verbundenen Auftraggebern.</p>\n    </article>\n<article class=\"ph-radar-card\">\n      <div class=\"ph-radar-kind\"><time datetime=\"2026-10-09\">KLINISCHE EVIDENZ · STUDIENREGISTER · 09.10.2026</time></div>\n      <h3>Zwei Phase-3-Studien zu oralem VK2735 im Register veröffentlicht</h3>\n      <p>ClinicalTrials.gov veröffentlichte SUNRISE 1 und SUNRISE 2 zu oralem VK2735 am 09.10.2026. Beide Studien standen zum Register-Update vom 16.10.2026 auf „noch nicht rekrutierend“.</p>\n      <p class=\"ph-radar-context\">Registerveröffentlichung und Studienstatus enthalten keine Ergebnisdaten. Sie belegen weder Wirksamkeit noch Zulassung.</p>\n      <div class=\"ph-radar-links\"><a href=\"https://clinicaltrials.gov/study/NCT07868835\" target=\"_blank\" rel=\"noopener noreferrer\">ClinicalTrials.gov · SUNRISE 1 (NCT07868835) ↗</a>\n<a href=\"https://clinicaltrials.gov/study/NCT07868939\" target=\"_blank\" rel=\"noopener noreferrer\">ClinicalTrials.gov · SUNRISE 2 (NCT07868939) ↗</a></div>\n      <p class=\"ph-radar-disclosure\">Interessenkonflikt · Stand 23.10.2026: Der Autor hält eine Position in Viking Therapeutics, Inc. (Nasdaq: VKTX). Die Karte enthält ausschließlich Registertatsachen und keine Unternehmensbewertung oder Handlungsaufforderung.</p>\n    </article>\n  </div>\n  <p class=\"ph-radar-foot\">Einträge dokumentieren Primärquellen und werden nicht als Kurs-, Therapie- oder Handlungssignal gelesen. <a href=\"/methodik/research-entscheidungsprotokoll/\">Zum verbindlichen Research-Protokoll →</a></p>\n  <p class=\"ph-radar-method\">SEC-Form-4-Hinweis: Kein veröffentlichungsfähiger SEC-Form-4-Hinweis. In 15 geprüften Einreichungen gab es keinen direkten Table-I-Kauf mit Transaktionscode P; deshalb wird keine Insiderkarte gezeigt. Öffentliche Anzeige nur bei manuell geprüftem direktem Table-I-P-Kauf über USD 650.000 pro meldender Person und Emittent über 20 Handelstage. Verkäufe, Optionen, Vergütungszuteilungen, Steuer-/Ausübungsvorgänge und indirektes Eigentum sind ausgeschlossen.</p>\n</section>\n<section aria-label=\"Die drei Researchbereiche\" class=\"ph-three\">",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "verify": [
+  {
+   "site": "pharma",
+   "url": "/",
+   "contains": [
+    "<!-- hs:pharma-catalyst-radar -->",
+    "Pharma Catalyst Radar",
+    "research-entscheidungsprotokoll"
+   ]
+  }
+ ]
+}
