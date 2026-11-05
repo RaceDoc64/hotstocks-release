@@ -1,0 +1,88 @@
+{
+ "schema": 1,
+ "id": "20261105T103938Z-medizin-2036-verlinkung",
+ "title": "Verlinkung Essay Medizin 2036: /essays/, Startseite, /analyse/",
+ "created": "2026-11-05T10:39:38+00:00",
+ "not_before": null,
+ "ops": [
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "essays/index.html",
+   "edits": [
+    {
+     "find": "<div class=\"posts\"><div class=\"post\"><div class=\"meta\">Einsteiger-Leitfaden · Dr. Joachim Friese · 13.10.2026</div>",
+     "replace": "<div class=\"posts\"><div class=\"post\"><div class=\"meta\">Essay · Dr. Joachim Friese · 05.11.2026</div><h3><a style=\"color:var(--text);text-decoration:none\" href=\"/essays/medizin-2036-szenarien-medizintechnik/\">Medizin 2036: Was in zehn Jahren belegbar möglich ist – und was Hoffnung bleibt</a></h3><p>Drei Szenarien für 2036: Abnehmspritzen, Gentherapie, Organersatz, Gehirn-Computer-Schnittstellen und KI-Diagnostik – mit Evidenzleiter, Gesundheitsausgaben, Lebenszeit-Modell, Rechner und 70 Quellen. Allgemeine Information, keine Anlageberatung.</p></div><div class=\"post\"><div class=\"meta\">Einsteiger-Leitfaden · Dr. Joachim Friese · 13.10.2026</div>",
+     "count": 1
+    },
+    {
+     "find": "<li>Neu: „Biotech-Aktien richtig lesen: Der Einsteiger-Leitfaden“ (Biotech-Einstieg)</li>",
+     "replace": "<li>Neu: „Medizin 2036: Was in zehn Jahren belegbar möglich ist“ (Zukunftsessay)</li><li>Neu: „Biotech-Aktien richtig lesen: Der Einsteiger-Leitfaden“ (Biotech-Einstieg)</li>",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "index.html",
+   "edits": [
+    {
+     "find": "<article class=\"ph-story\"><div class=\"ph-number\">02 · Neuer Essay</div><h3>Die Hand am Joystick, das Können im Kopf</h3><p>Roboterchirurgie 2026: Verbreitung, Ausbildung und fünf Aktien im Drei-Ebenen-Check (ISRG, SSII, MDT, SYK, Edge Medical) – faktengeprüft, mit Quellen und Offenlegung des Autors.</p><a href=\"/essays/roboterchirurgie-2026/\">Essay lesen →</a></article>",
+     "replace": "<article class=\"ph-story\"><div class=\"ph-number\">02 · Neues Essay</div><h3>Medizin 2036: Was belegbar möglich ist</h3><p>Abnehmspritzen, Gentherapie, Organersatz, Gehirn-Computer-Schnittstellen und KI-Diagnostik in drei Szenarien – mit Evidenzleiter, Rechner und 70 Quellen. Allgemeine Information, keine Anlageberatung.</p><a href=\"/essays/medizin-2036-szenarien-medizintechnik/\">Essay lesen →</a></article>",
+     "count": 1
+    },
+    {
+     "find": "<article class=\"ph-story\"><div class=\"ph-number\">03 · Neuer Leitfaden</div><h3>Biotech-Aktien richtig lesen: Der Einsteiger-Leitfaden</h3><p>Erfolgsraten, FDA-Verfahren, Studien lesen, Cash-Runway, Verwässerung, Optionsmarkt und fünf Fallstudien – mit Rechner und 74 Primärquellen. Allgemeine Finanzbildung, keine Anlageberatung.</p><a href=\"/essays/biotech-investieren-einsteiger-leitfaden/\">Leitfaden lesen →</a> · <a href=\"/essays/\">Alle Essays →</a></article>",
+     "replace": "<article class=\"ph-story\"><div class=\"ph-number\">03 · Essays und Leitfäden</div><h3>Vertiefen statt Schlagzeile</h3><p>Roboterchirurgie 2026 im Drei-Ebenen-Check und der Einsteiger-Leitfaden „Biotech-Aktien richtig lesen“ – beide mit Quellen und Offenlegung des Autors.</p><a href=\"/essays/roboterchirurgie-2026/\">Roboterchirurgie →</a> · <a href=\"/essays/biotech-investieren-einsteiger-leitfaden/\">Biotech-Leitfaden →</a> · <a href=\"/essays/\">Alle Essays →</a></article>",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "analyse/index.html",
+   "edits": [
+    {
+     "find": "den Essay zur Roboterchirurgie und den neuen Einsteiger-Leitfaden zu Biotech-Aktien.",
+     "replace": "den Zukunftsessay „Medizin 2036“, den Essay zur Roboterchirurgie und den Einsteiger-Leitfaden zu Biotech-Aktien.",
+     "count": 1
+    },
+    {
+     "find": "<div class=\"card section\"><h2>Research-Essay</h2>",
+     "replace": "<div class=\"card section\"><h2>Zukunftsessay</h2><p><strong>Medizin 2036: Was in zehn Jahren belegbar möglich ist – und was Hoffnung bleibt</strong> ordnet Abnehmspritzen, Gentherapie, Organersatz, Gehirn-Computer-Schnittstellen und KI-Diagnostik in drei Szenarien ein – mit Evidenzleiter, Rechner und Quellen.</p><p><a href=\"/essays/medizin-2036-szenarien-medizintechnik/\" style=\"color:var(--accent2)\">Zum Essay →</a></p></div><div class=\"card section\"><h2>Research-Essay</h2>",
+     "count": 1
+    },
+    {
+     "find": "<li>Neu: Einsteiger-Leitfaden „Biotech-Aktien richtig lesen“</li>",
+     "replace": "<li>Neu: Zukunftsessay „Medizin 2036“ mit Evidenzleiter und Rechner</li><li>Neu: Einsteiger-Leitfaden „Biotech-Aktien richtig lesen“</li>",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "verify": [
+  {
+   "site": "pharma",
+   "url": "/essays/",
+   "contains": [
+    "/essays/medizin-2036-szenarien-medizintechnik/"
+   ]
+  },
+  {
+   "site": "pharma",
+   "url": "/",
+   "contains": [
+    "/essays/medizin-2036-szenarien-medizintechnik/"
+   ]
+  },
+  {
+   "site": "pharma",
+   "url": "/analyse/",
+   "contains": [
+    "/essays/medizin-2036-szenarien-medizintechnik/"
+   ]
+  }
+ ]
+}
