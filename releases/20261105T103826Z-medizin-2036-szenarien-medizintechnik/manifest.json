@@ -1,0 +1,74 @@
+{
+ "schema": 1,
+ "id": "20261105T103826Z-medizin-2036-szenarien-medizintechnik",
+ "title": "Veroeffentlichung pharma: Medizin 2036: Was in zehn Jahren belegbar möglich ist – und ",
+ "created": "2026-11-05T10:38:26+00:00",
+ "not_before": null,
+ "ops": [
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "essays/medizin-2036-szenarien-medizintechnik/index.html",
+   "sha256": "99ad83678e7ac63dc2738fef20a582316a42d61db230b746eb5d242dbb8cd66a",
+   "size": 85069,
+   "overwrite": false
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "og/essays-medizin-2036-szenarien-medizintechnik.png",
+   "sha256": "87df556523210a66db18728e0235958ce5fa13f6f3b108e8a4be31c9e1944a58",
+   "size": 50691,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "essays/medizin-2036-szenarien-medizintechnik/bild1-hero.jpg",
+   "sha256": "b8c4dbfffa167183dc34aa335a1bd9b35733668c2d2a2267700836364d08184f",
+   "size": 200897,
+   "overwrite": false
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "essays/medizin-2036-szenarien-medizintechnik/bild2-leiter.jpg",
+   "sha256": "52ad9af06deabcee3aa310b031bca4944ff2a5c50e110695b19deefb5093e1ec",
+   "size": 176835,
+   "overwrite": false
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "sitemap.xml",
+   "sha256": "9f2cf8a3c2adbdd39b9eefd2d064280518d69321f862f51dbd94b18e6ce0d38d",
+   "size": 2446,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "feed.xml",
+   "sha256": "4a3675b2748e477dff8aa927ca69917cb2544dadca984e13538d4241bcef23bb",
+   "size": 6392,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "llms.txt",
+   "sha256": "f95f70544d0c9924f252c340d5fcaa15d5ec6dd6ae2dedd5eb5fda1a1d6d03f6",
+   "size": 4866,
+   "overwrite": true
+  }
+ ],
+ "verify": [
+  {
+   "site": "pharma",
+   "url": "/essays/medizin-2036-szenarien-medizintechnik/",
+   "contains": [
+    "Medizin 2036: Was in zehn Jahren belegba"
+   ]
+  }
+ ]
+}
