@@ -1,0 +1,103 @@
+{
+ "schema": 1,
+ "id": "20261112T064612Z-pharma-pimicotinib-fda-20261112",
+ "title": "Pimicotinib: sachliche FDA-Zulassungsnachricht und Radar-/Hub-Verlinkung",
+ "created": "2026-11-12T06:46:12+00:00",
+ "not_before": null,
+ "ops": [
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "analyse/pimicotinib-fda-zulassung-tgct-2026/index.html",
+   "sha256": "8871058bfdbe1a1816077ebe6c72f2e96f0588a90636ae7dbec589e5036aec51",
+   "size": 12226,
+   "overwrite": false
+  },
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "index.html",
+   "edits": [
+    {
+     "find": "<div class=\"ph-radar-grid\">",
+     "replace": "<div class=\"ph-radar-grid\">\n<!-- hs:pimicotinib-radar-20261112 -->\n<article class=\"ph-radar-card\" data-hs-radar=\"pimicotinib-20261112\" style=\"grid-column:1/-1\">\n<div class=\"ph-radar-kind\"><time datetime=\"2026-11-10\">ZULASSUNG · FDA · 10.11.2026</time></div>\n<h3>Pimicotinib: FDA-Zulassung für bestimmte Erwachsene mit symptomatischem TGCT</h3>\n<p>Die FDA hat Pimicotinib für Erwachsene mit symptomatischem tenosynovialem Riesenzelltumor zugelassen, bei denen eine operative Resektion funktionelle Einschränkungen verschlechtern oder schwere Morbidität verursachen könnte.</p>\n<p class=\"ph-radar-context\">Definierte US-Indikation; keine pauschale Therapieempfehlung. Warnhinweise und Zulassungsgrenzen sind in der Meldung eingeordnet. Kein Aktiensignal.</p>\n<div class=\"ph-radar-links\"><a href=\"/analyse/pimicotinib-fda-zulassung-tgct-2026/\" style=\"color:#b6eff7!important\">Meldung und Grenzen lesen →</a><a href=\"https://www.fda.gov/drugs/cancer-approvals/fda-approves-pimicotinib-symptomatic-tenosynovial-giant-cell-tumor\" style=\"color:#b6eff7!important\" target=\"_blank\" rel=\"noopener noreferrer\">FDA-Primärquelle ↗</a></div>\n<p class=\"ph-radar-disclosure\">Interessenkonflikte · Stand 12.11.2026: Der Autor bestätigt für diese Meldung keine Interessenkonflikte in Bezug auf EMD Serono, Inc. und verbundene Unternehmen.</p></article>\n",
+     "count": 1
+    },
+    {
+     "find": "<div class=\"ph-radar-stamp\">Datenstand: 23.10.2026, 21:36 Europe/Zurich</div>",
+     "replace": "<div class=\"ph-radar-stamp\" style=\"white-space:normal;max-width:290px\">Neuer Eintrag: 12.11.2026<br>Ältere Karten: jeweils eigener Datenstand</div>",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "op": "patch",
+   "site": "pharma",
+   "path": "analyse/index.html",
+   "edits": [
+    {
+     "find": "<div class=\"posts\">",
+     "replace": "<div class=\"posts\"><article class=\"post\" data-hs-card=\"20261112-pimicotinib\"><div class=\"meta\">FDA-Zulassungsnachricht · Dr. Joachim Friese · 12.11.2026</div><h3><a href=\"/analyse/pimicotinib-fda-zulassung-tgct-2026/\">Pimicotinib: FDA-Zulassung für bestimmte Erwachsene mit symptomatischem TGCT</a></h3><p>US-Zulassung vom 10.11.2026 für eine definierte TGCT-Patientengruppe: Indikationsgrenzen, Warnhinweise und regulatorischer Kontext. Keine Anlageberatung.</p></article>",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "sitemap.xml",
+   "sha256": "1ebcdb570e81b06d263c72074e58ee04d6cf319c5a858b61711581e708295ece",
+   "size": 2575,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "feed.xml",
+   "sha256": "76fa3ef1b50506ee83b62ff7ed90bf1d40ef55b986c0cd608d44c1dcfaf3ad09",
+   "size": 6864,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "llms.txt",
+   "sha256": "905e769231ab9af9bd9989458a4fc9af95f92361e41e37d9e41ef0aceeabf0ae",
+   "size": 5159,
+   "overwrite": true
+  },
+  {
+   "op": "put",
+   "site": "pharma",
+   "path": "og/analyse-pimicotinib-fda-zulassung-tgct-2026.png",
+   "sha256": "8817c8b98cad9d261deb504313be4d8e9667ecaed5ace225333e54ce67da62f6",
+   "size": 42176,
+   "overwrite": false
+  }
+ ],
+ "verify": [
+  {
+   "site": "pharma",
+   "url": "/analyse/pimicotinib-fda-zulassung-tgct-2026/",
+   "contains": [
+    "data-hs-article=\"pimicotinib-20261112\"",
+    "Interessenkonflikte",
+    "Keine Anlageberatung"
+   ]
+  },
+  {
+   "site": "pharma",
+   "url": "/",
+   "contains": [
+    "hs:pimicotinib-radar-20261112"
+   ]
+  },
+  {
+   "site": "pharma",
+   "url": "/analyse/",
+   "contains": [
+    "20261112-pimicotinib"
+   ]
+  }
+ ]
+}
